@@ -157,9 +157,8 @@ img {
   gap: 24px;
 }
 .work-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
-
 .work-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -167,6 +166,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+}
+.work-item {
+  width: calc((100% - 72px) / 4);
 }
 .work-uperrtitle {
   line-height: 1.5;
