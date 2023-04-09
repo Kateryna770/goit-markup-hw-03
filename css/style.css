@@ -235,7 +235,7 @@ body {
   display: flex;
   gap: 24px;
 }
-.item {
+.work-item {
   width: calc((100% - 72px) / 4);
 }
 .work-title {
