@@ -109,10 +109,23 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.container {
+  width: 1158px;
+  padding: 0 15px 0 15px;
+}
 
 /* Header section */
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container-hero {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
