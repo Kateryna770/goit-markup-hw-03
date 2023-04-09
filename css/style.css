@@ -390,6 +390,9 @@ body {
   color: #404bbf;
 }
 .btm {
+  padding: 12px 24px;
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -400,10 +403,12 @@ body {
   cursor: pointer;
 }
 .btm:hover {
+  border: 1px solid transparent;
   color: #ffffff;
   background-color: #404bbf;
 }
 .btm:focus {
+  border: 1px solid transparent;
   color: #ffffff;
   background-color: #404bbf;
 }
