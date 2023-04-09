@@ -156,8 +156,8 @@ img {
   display: flex;
   gap: 24px;
 }
-.work-item {
-  flex-basis: calc((100% - 72px) / 4);
+.work-item:nth-last-child() {
+  margin-right: 0;
 }
 .work-title {
   margin-bottom: 8px;
