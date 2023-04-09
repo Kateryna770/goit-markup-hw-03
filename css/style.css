@@ -229,12 +229,17 @@ body {
 /* Work section */
 
 .work-section {
+  padding: 120px 0;
 }
 .work-list {
+  display: flex;
+  gap: 24px;
 }
 .work-item {
+  width: calc((100% - 72px) / 4);
 }
 .work-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -249,8 +254,10 @@ body {
 /* Studio section */
 
 .studio-section {
+  padding-bottom: 120px;
 }
 .studio-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -259,16 +266,21 @@ body {
   color: var(--color-navy-blue);
 }
 .studio-list {
+  display: flex;
+  gap: 24px;
 }
 .studio-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /* Team section */
 
 .team-section {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 .team-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -277,8 +289,11 @@ body {
   color: var(--color-grey);
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
 }
 .team-name {
