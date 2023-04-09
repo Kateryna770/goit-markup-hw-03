@@ -83,8 +83,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.header-item {
-}
+
 .contact {
   font-style: normal;
 }
@@ -274,10 +273,7 @@ img {
   display: flex;
   align-items: center;
 }
-.link {
-}
-.header-studio {
-}
+
 .menu-link {
   padding: 24px 0;
   line-height: 1.5;
@@ -294,8 +290,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.list {
-}
+
 .menu-item {
   padding: 24px 0;
   font-weight: 500;
@@ -376,8 +371,7 @@ img {
   line-height: 1.5;
   color: var(--color-slate);
 }
-.footer {
-}
+
 .foooter-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -386,8 +380,4 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.footer-span-logo {
-}
-.footer-undertitle {
 }
