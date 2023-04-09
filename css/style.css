@@ -164,6 +164,9 @@ body {
   font-style: normal;
 }
 .contact-list {
+  display: flex;
+  margin-right: 40px;
+  margin-right: 0;
 }
 .contact-item {
   line-height: 1.5;
