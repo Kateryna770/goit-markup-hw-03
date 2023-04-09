@@ -21,6 +21,8 @@ html {
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -156,6 +158,9 @@ img {
   display: flex;
   gap: 24px;
 }
+.work-item {
+  width: calc((100% - 72px) / 4);
+}
 
 .work-title {
   margin-bottom: 8px;
@@ -165,9 +170,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-.work-item {
-  width: calc((100% - 72px) / 4);
-}
+
 .work-uperrtitle {
   line-height: 1.5;
   letter-spacing: 0.02em;
