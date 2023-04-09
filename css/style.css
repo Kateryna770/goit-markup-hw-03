@@ -156,9 +156,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.work-item:nth-last-child() {
-  margin-right: 0;
-}
+
 .work-title {
   margin-bottom: 8px;
   font-weight: 500;
