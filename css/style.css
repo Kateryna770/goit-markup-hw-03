@@ -29,7 +29,12 @@ html {
   margin: 0;
   padding: 0;
 }
-
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
